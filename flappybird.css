@@ -1,0 +1,14 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#board {
+    display: block; /* Ensures no extra space around canvas */
+    background-image: url("./flappybirdbg.png");
+    background-size: cover; /* Ensure the background covers the entire canvas */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height of the viewport */
+}
